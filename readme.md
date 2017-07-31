@@ -8,11 +8,11 @@ Yet another JS log module with prefixes made of a custom string and a timestamp.
 `npm i --save pdlog`
 
 #### Usage:
-```
+```js
 const c = require('pdlog')('#WHATEVER');
 c.log('hello world');
 ```
-Output:
+_Output:_
 ```
 [2017-07-31T15:49:57.161Z] #WHATEVER hello world
 ```
@@ -25,11 +25,11 @@ Output:
 - debug()
 
 #### Custom prefix function (well, why not!)
-```
+```js
 const c = require('pdlog')(() => Date.now())
 c.log('hello world');
 ```
-Output:
+_Output:_
 ```
 685051200000 hello world
 ```
