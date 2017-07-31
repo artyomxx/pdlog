@@ -1,0 +1,32 @@
+{
+  "name": "pdlog",
+  "version": "0.0.1",
+  "description": "Yet another JS log module with prefixes made of a custom string and a timestamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-nyan",
+    "tests": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolwhoami/pdlog.git"
+  },
+  "keywords": [
+    "log",
+    "warn",
+    "error",
+    "info",
+    "es6"
+  ],
+  "author": "lolwho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lolwhoami/pdlog/issues"
+  },
+  "homepage": "https://github.com/lolwhoami/pdlog#readme",
+  "devDependencies": {
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {}
+}
