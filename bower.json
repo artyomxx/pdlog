@@ -1,0 +1,24 @@
+{
+  "name": "pdlog",
+  "description": "Yet another JS log module with prefixes made of a custom string and a timestamp",
+  "main": "index.js",
+  "authors": [
+    "lolwho"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "log",
+    "warn",
+    "error",
+    "info",
+    "es6"
+  ],
+  "homepage": "https://github.com/lolwhoami/pdlog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
