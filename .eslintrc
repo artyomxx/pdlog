@@ -130,21 +130,5 @@
 		"valid-jsdoc": 0,
 		"valid-typeof": 2
 	},
-	"globals": {
-		"angular": true,
-		"_": true,
-		"$": true,
-		"Firebase": true,
-		"Raphael": true,
-		"debug": true,
-		"log": true,
-		"moment": true,
-		"Notification": true,
-		"XLS": true,
-		"confirm": true,
-		"Promise": true,
-		"PhotoSwipe": true,
-		"PhotoSwipeUI_Default": true,
-		"katex": true
-	}
+	"globals": {}
 }
