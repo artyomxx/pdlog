@@ -38,8 +38,7 @@ _* function's result will be used without the built-in date prefix_
 
 #### Options:
 
-
-##### quiet: `<function>`
+**quiet:** `<function>`
 
 **Why function?** Because you probably want to have an ability to switch it on or off dynamically.
 
