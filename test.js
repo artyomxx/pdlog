@@ -54,3 +54,24 @@ test('prefix function works', t => {
 
 	t.end();
 });
+
+
+test('options.quiet works', t => {
+	let cs = pdlog('something you wouldn\'t see', {quiet: () => true}),
+		oldConsole = {};
+
+	methods.forEach(m => {
+		oldConsole[m] = console[m];
+
+		console[m] = (...args) => {
+			oldConsole[m].apply(console, args);
+			return args.join(' ');
+		};
+
+		t.ok(cs[m]('hello') === true, `console.${m} output is empty`);
+
+		console[m] = oldConsole[m];
+	});
+
+	t.end();
+});
