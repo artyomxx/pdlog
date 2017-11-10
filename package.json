@@ -1,6 +1,6 @@
 {
   "name": "pdlog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yet another JS log module with prefixes made of a custom string and a timestamp",
   "main": "index.js",
   "scripts": {
